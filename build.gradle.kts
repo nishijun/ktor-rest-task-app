@@ -32,4 +32,7 @@ dependencies {
     implementation("io.ktor:ktor-server-config-yaml")
     testImplementation("io.ktor:ktor-server-test-host-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+    testImplementation("io.ktor:ktor-server-test-host:$kotlin_version")
+    testImplementation("io.ktor:ktor-client-content-negotiation:$kotlin_version")
+    testImplementation("com.jayway.jsonpath:json-path:2.9.0")
 }
